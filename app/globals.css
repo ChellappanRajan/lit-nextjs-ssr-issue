@@ -30,8 +30,14 @@ body {
   margin: 0;
 }
 
-a {
-  color: inherit;
+.link {
+  color: #2563eb; /* blue-600 */
+  text-decoration: underline;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.link:hover {
+  color: #1e40af; /* blue-800 */
   text-decoration: none;
 }
 
